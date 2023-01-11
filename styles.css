@@ -1,7 +1,8 @@
 body {
     background-color: #1f2d3d;
-    color: #ffe5b2;
+    color: #f0f0f0;
     padding: 0 2em;
+    font-family: "Montserrat";
 }
 
 section {
@@ -10,14 +11,24 @@ section {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 48px;
     color: #ccd6f6;
 }
 
 h2 {
     font-size: 40px;
     color: #8892b0;
-    margin-top: -30px;
+    margin-top: -40px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Bebas Neue";
+    letter-spacing: 1px;
+}
+
+h6 {
+    font-size: 24px;
+    margin-bottom: 0;
 }
 
 p {
@@ -47,6 +58,10 @@ button {
     border-radius: 5px;
     background-color: #1f2d3d;
     padding: 15px;
+    font-family: "Bebas Neue";
+    font-size: 16px;
+    letter-spacing: 1px;
+
 }
 
 /* About */
@@ -142,3 +157,38 @@ button {
 footer {
     text-align: center;
 }
+
+
+
+
+/** Fonts **/
+
+/* bebas-neue-regular - latin */
+@font-face {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/bebas-neue-v9-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/bebas-neue-v9-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bebas-neue-v9-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bebas-neue-v9-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/bebas-neue-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bebas-neue-v9-latin-regular.svg#BebasNeue') format('svg'); /* Legacy iOS */
+  }
+  
+
+  /* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat-v25-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/montserrat-v25-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/montserrat-v25-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/montserrat-v25-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/montserrat-v25-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/montserrat-v25-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+  }
+  
