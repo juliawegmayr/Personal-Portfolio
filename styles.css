@@ -110,7 +110,7 @@ a {
     text-decoration: none;
 }
 
-li:hover, a:hover {
+a:hover {
     color: #ffaa00;
     text-decoration: underline;
 }
@@ -126,6 +126,13 @@ li:hover, a:hover {
 .julia {
     width: 350px;
     height: auto;
+}
+
+.techs {
+    display: flex;
+    line-height: 1.5;
+    gap: 3em;
+    color: #ffe5b2;
 }
 
 /* Projects */
