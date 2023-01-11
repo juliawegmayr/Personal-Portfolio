@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Julia Wegmayr</title>
+    <title>Julia Wegmayr | Full Stack Webdeveloper</title>
   </head>
   <body>
     <!-- Navigation -->
@@ -13,10 +13,10 @@
       <nav>
         <img class="logo" src="images/logo.png" alt="Logo Julia Wegmayr" />
         <ol class="navbar">
-          <li><a href="/#about">Über Mich</a></li>
-          <li><a href="/#projekte">Meine Projekte</a></li>
-          <li><a href="/#kontakt">Kontakt</a></li>
-          <button class="resume">Lebenslauf</button>
+            <a href="/#about"><li>Über Mich</li></a>
+         <a href="/#projekte"><li>Meine Projekte</li></a>
+          <a href="/#kontakt"><li>Kontakt</li></a>
+          <a href="documents/lebenslauf.pdf"><button class="resume">Lebenslauf</button></a>
         </ol>
       </nav>
     </header>
@@ -34,7 +34,7 @@
         funktional und informativ sind und den aktuellsten Standards
         entsprechen.
       </p>
-      <button class="projects">Zu meinen Projekten</button>
+      <a href="/#projekte"><button class="projects">Zu meinen Projekten</button></a>
     </section>
 
     <!-- About -->
@@ -196,33 +196,28 @@
             <li>JavaScript</li>
           </ul>
         </div>
-        <div class="project-card">
-          <img class="img-card" src="images/example.jpg" />
-          <h4>Name of my Project</h4>
-          <p class="card-descr">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-            veritatis iusto qui aperiam laborum est beatae corrupti minus
-            incidunt consequuntur
-          </p>
-          <ul class="tech-used-left">
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
-          </ul>
-        </div>
-      </div>
+        
     </section>
 
     <!-- Contact -->
     <section class="contact" id="kontakt">
         <h2>3. Kontakt</h2>
         <p>Dir gefällt meine bisherige Arbeit? Dann schreibe mir doch eine Nachricht! Ich bin gerade auf der Suche nach einem Job, in dem ich meine Fähigkeiten anwenden und erweitern kann. Aber auch auf Feedback, Projektvorschläge oder Nachrichten rund um's Web Development freue ich mich sehr!</p>
-        <button>E-Mail</button>
+        <a href="mailto:julia.wegmayr@gmail,com"><button>E-Mail</button></a>
     </section>
+
+    <!-- E-Mail Sidebar-->
+
+    <div class="email-sidebar">
+        <div class="email">
+        <a href="mailto:julia.wegmayr@gmail.com"><p>julia.wegmayr@gmail.com</p></a>
+        </div>
+        <div class="vl"></div>
+    </div>
 
 
     <footer>
-        <p>&copy; <script>document.write(new Date().getFullYear())</script> Julia Wegmayr<br>Impressum & Datenschutzerklärung</p>
+        <p>&copy; <script>document.write(new Date().getFullYear())</script> Julia Wegmayr<br><a href="/impressum">Impressum & Datenschutzerklärung</a></p>
     </footer>
   </body>
 </html>

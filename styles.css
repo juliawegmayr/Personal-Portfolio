@@ -77,6 +77,15 @@ button {
 
 }
 
+
+button:hover {
+    color: #f0f0f0;
+    border:1px solid #f0f0f0;
+    cursor: pointer;
+}
+
+
+
 .logo {
     width: 350px;
 }
@@ -187,7 +196,27 @@ footer {
     text-align: center;
 }
 
+/* Sidebars */
 
+.email-sidebar
+ {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    right: 20px;
+    flex-wrap: wrap;
+    gap: 1em;
+    transform: rotate(90deg);
+    position: fixed;
+    bottom: 120px;
+    right: -100px;
+}
+
+.vl {
+    margin-top: 4px;
+    border-top: 2px solid #f0f0f0;
+    width: 200px;    
+}
 
 
 /** Fonts **/
