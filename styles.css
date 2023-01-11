@@ -203,7 +203,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: left;
-    right: 20px;
     flex-wrap: wrap;
     gap: 1em;
     transform: rotate(90deg);
@@ -217,6 +216,22 @@ footer {
     border-top: 2px solid #f0f0f0;
     width: 200px;    
 }
+
+
+.socials-sidebar
+ {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 1em;
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 120px;
+    left: -100px;
+}
+
+
 
 
 /** Fonts **/
