@@ -8,6 +8,7 @@ body {
 section {
     margin: 19em auto;
     max-width: 1000px;
+    padding-top: 30px;
 }
 
 h1 {
@@ -44,11 +45,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
 p {
     line-height: 2;
 }
 
+.anchor {
+    padding-top: 140px;
+    margin-top: -140px;
+}
 
 /*Navigation*/ 
 
