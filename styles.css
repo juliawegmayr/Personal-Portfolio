@@ -77,6 +77,12 @@ button:hover {
     cursor: pointer;
 }
 
+.icon {
+    width: 30px;
+    margin-right: 20px;
+
+}
+
 
 /*Navigation*/ 
 
@@ -148,9 +154,13 @@ a:hover {
 
       .burger-menu {
         display: block;
-        color:#ffaa00;
       }
-    
+
+      .burger-icon {
+        width: 15px;
+
+      }
+          
       nav ol.show {
         transform: translateX(0);
       }
