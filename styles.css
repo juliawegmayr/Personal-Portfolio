@@ -54,6 +54,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 
@@ -78,6 +79,16 @@ button {
 
 .logo {
     width: 350px;
+}
+
+a {
+    color:#f0f0f0;
+    text-decoration: none;
+}
+
+li:hover, a:hover {
+    color: #ffaa00;
+    text-decoration: underline;
 }
 
 /* About */
@@ -123,7 +134,6 @@ button {
     gap: 2em;
     list-style-type: none;
     color: #ffe5b2
-
 }
 
 
