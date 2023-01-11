@@ -37,7 +37,7 @@ nav {
 .navbar {
     display: flex;
     justify-content: space-between;
-    gap: 2em;
+    gap: 3em;
     align-items: center;
 }
 
@@ -135,4 +135,10 @@ button {
 
 .img-card {
     width: 280px;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
 }
