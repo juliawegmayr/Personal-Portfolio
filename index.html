@@ -13,11 +13,14 @@
       <nav>
         <img class="logo" src="images/logo.png" alt="Logo Julia Wegmayr" />
         <ol class="navbar">
-            <a href="/#about"><li>Über Mich</li></a>
-         <a href="/#projekte"><li>Meine Projekte</li></a>
-          <a href="/#kontakt"><li>Kontakt</li></a>
-          <a href="documents/lebenslauf.pdf"><button class="resume">Lebenslauf</button></a>
+            <a href="/#about" class="nav-link"><li class="show">Über Mich</li></a>
+            <a href="/#projekte" class="nav-link"><li class="show">Meine Projekte</li></a>
+            <a href="/#kontakt" class="nav-link"><li class="show">Kontakt</li></a>
+            <a href="documents/lebenslauf.pdf" class="nav-link"><button class="resume show">Lebenslauf</button></a>
         </ol>
+        <button class="burger-menu" id="burger-menu">
+            <p>B</p>
+          </button>
       </nav>
     </header>
 
@@ -229,5 +232,6 @@
     <footer>
         <p>&copy; <script>document.write(new Date().getFullYear())</script> Julia Wegmayr<br><a href="/impressum.html">Impressum & Datenschutzerklärung</a></p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

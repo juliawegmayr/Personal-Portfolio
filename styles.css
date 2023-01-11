@@ -58,6 +58,26 @@ p {
     margin-top: -140px;
 }
 
+button {
+    color: #ffaa00;
+    border: 1px solid #ffaa00;
+    border-radius: 5px;
+    background-color: #1f2d3d;
+    padding: 15px;
+    font-family: "Bebas Neue";
+    font-size: 16px;
+    letter-spacing: 1px;
+
+}
+
+
+button:hover {
+    color: #f0f0f0;
+    border:1px solid #f0f0f0;
+    cursor: pointer;
+}
+
+
 /*Navigation*/ 
 
 nav {
@@ -80,26 +100,6 @@ nav {
     align-items: center;
 }
 
-button {
-    color: #ffaa00;
-    border: 1px solid #ffaa00;
-    border-radius: 5px;
-    background-color: #1f2d3d;
-    padding: 15px;
-    font-family: "Bebas Neue";
-    font-size: 16px;
-    letter-spacing: 1px;
-
-}
-
-
-button:hover {
-    color: #f0f0f0;
-    border:1px solid #f0f0f0;
-    cursor: pointer;
-}
-
-
 
 .logo {
     width: 350px;
@@ -114,6 +114,49 @@ a:hover {
     color: #ffaa00;
     text-decoration: underline;
 }
+
+.burger-menu {
+    color: var(--primary-color);
+    font-size: 2rem;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
+  }
+  
+
+@media screen and (max-width: 720px) {
+    nav {
+        padding: 1.5rem 1rem;
+      }
+    
+      .navbar{
+        position: fixed;
+        background-color: #1f2d3d;
+        flex-direction: column;
+        width: 100%;
+        top: 120px;
+        text-align: center;
+        transform: translateX(120%);
+        transition: transform 0.5s ease-in;
+        padding: 15px;
+      }
+    
+       nav ol li {
+        margin: 8px;
+      }
+
+      .burger-menu {
+        display: block;
+        color:#ffaa00;
+      }
+    
+      nav ol.show {
+        transform: translateX(0);
+      }
+
+  }
+  
 
 /* About */
 
@@ -192,7 +235,7 @@ a:hover {
 .further-projects {
     margin-top: 7em;
     display: flex;
-    gap: 1em;
+    gap: 3em;
     flex-wrap: wrap;
     justify-content: center;
     
