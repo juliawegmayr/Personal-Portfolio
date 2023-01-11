@@ -22,11 +22,6 @@ h2 {
     color: #ffe5b2;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Bebas Neue";
-    letter-spacing: 1px;
-}
-
 h3 {
     color: #ffaa00;
     font-size: 28px;
@@ -43,6 +38,13 @@ h6 {
     color: #ffaa00;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Bebas Neue";
+    letter-spacing: 1px;
+}
+
+
+
 p {
     line-height: 2;
 }
@@ -54,7 +56,12 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    position: fixed;
+    width: 90%;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);   
+    background-color: #1f2d3d;
 }
 
 
