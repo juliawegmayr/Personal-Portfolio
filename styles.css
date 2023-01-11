@@ -64,6 +64,10 @@ button {
 
 }
 
+.logo {
+    width: 350px;
+}
+
 /* About */
 
 .about-container {
