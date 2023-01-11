@@ -277,7 +277,7 @@ a:hover {
     
     .tech-used-right {
         display: flex;
-        justify-content: center;
+        justify-content: left;
         gap: 2em;
         list-style-type: none;
         color: #ffe5b2
