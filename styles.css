@@ -127,6 +127,12 @@ button {
     width: 300px;
 }
 
+/* Contact */
+
+.contact {
+    text-align: center;
+}
+
 .img-card {
     width: 280px;
 }
