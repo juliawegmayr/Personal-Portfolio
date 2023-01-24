@@ -94,8 +94,9 @@ nav {
     width: 90%;
     top: 0;
     left: 50%;
-    transform: translate(-50%, 0%);   
+    transform: translate(-50%, 0%);  
     background-color: #1f2d3d;
+ 
 }
 
 
@@ -104,11 +105,13 @@ nav {
     justify-content: space-between;
     gap: 3em;
     align-items: center;
+    background-color: #1f2d3d;
+
 }
 
 
 .logo {
-    width: 350px;
+    max-width: 350px;
 }
 
 a {
@@ -132,36 +135,37 @@ a:hover {
   
 
 @media screen and (max-width: 720px) {
-    nav {
-        padding: 1.5rem 1rem;
-      }
     
-      .navbar{
-        position: fixed;
-        background-color: #1f2d3d;
-        flex-direction: column;
-        width: 100%;
-        top: 120px;
-        text-align: center;
-        transform: translateX(120%);
-        transition: transform 0.5s ease-in;
-        padding: 15px;
-      }
-    
-       nav ol li {
-        margin: 8px;
-      }
-
-      .burger-menu {
+    .burger-menu {
         display: block;
       }
+
+    .burger-menu:hover {
+        border: none;
+    }
 
       .burger-icon {
         width: 15px;
 
       }
+
+      .navbar{
+        position: fixed;
+        display: block;        
+        top: 50px;
+        width: 100%;
+        text-align: center;
+        transform: translateX(120%);
+        transition: transform 0.5s ease-in;
+        height: 100vh;
+      }
+    
+       
+      nav ol {
+        line-height: 4em;
+      }
           
-      nav ol.show {
+      nav .show {
         transform: translateX(0);
       }
 
