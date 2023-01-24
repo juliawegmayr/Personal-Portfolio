@@ -96,6 +96,7 @@ nav {
     left: 50%;
     transform: translate(-50%, 0%);  
     background-color: #1f2d3d;
+    z-index: 10;
  
 }
 
@@ -151,7 +152,8 @@ a:hover {
 
       .navbar{
         position: fixed;
-        display: block;        
+        display: block; 
+        padding: 0;
         top: 50px;
         width: 100%;
         text-align: center;
@@ -163,6 +165,7 @@ a:hover {
        
       nav ol {
         line-height: 4em;
+        padding: 0;
       }
           
       nav .show {
